@@ -1,0 +1,154 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background-color: #ffe207;
+  font-family: "Lucida Console", "Courier New", monospace;
+  z-index: 1;
+
+}
+
+.body {
+  top: 110px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  margin-top: 45px;
+  margin-left: 20px;
+}
+.midSide {
+  font-size: 20px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  margin-left: 70px;
+}
+.rightSide {
+  position: fixed;
+  display: inline-block;
+  margin-left: 60px;
+  font-size: 20px;
+  color: rgba(53, 53, 53, 0.616);;
+
+}
+
+.back {
+  position: relative;
+  color: black;
+}
+.describe {
+  position: fixed;
+  width: 100%;
+  padding-left: 20px;
+  top: 100px;
+  left: 0;
+  height: 220px;
+  background-color: #ffe207;
+}
+
+img {
+  width: 110px;
+  height: 150px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.295), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+  float: left;
+}
+.describetext {
+  white-space: pre-line;
+  font-size: 15px;
+  position: absolute;
+  top: 300px;
+  left: 0;
+  margin-left: 20px;
+  color: rgb(43, 42, 42);
+  width: 90%;
+}
+.p1 {
+  position: fixed;
+  left: 150px;
+  top: 100px;
+  font-family: "Gill Sans", sans-serif;
+  font-size: 18px;
+  color: rgb(32, 32, 32);
+  font-weight: bold;
+  width: 50%;
+}
+.p2 {
+  position: fixed;
+  left: 150px;
+  top: 170px;
+  font-family: "Times New Roman", Times, serif;
+  color: rgba(5, 5, 5, 0.507);
+  font-size: 15px;
+
+}
+.p3 {
+  position: fixed;
+  left: 45px;
+  top: 280px;
+  font-family: "Gill Sans", sans-serif;
+  color: rgba(5, 5, 5, 0.507);
+  width: 80%;
+  font-size: 14px;
+
+
+}
+.score {
+  left: 80px;
+  top: 131px;
+  display: block;
+  font-size: 16px;
+  position: relative;
+  overflow: hidden;
+  
+}
+.score-wrap {
+  display: inline-block;
+  position: relative;
+  height: 19px;
+}
+
+.score .stars-active {
+  color: #353535;
+  position: relative;
+  z-index: 10;
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.score .stars-inactive {
+  color: grey;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.cost{
+  position: fixed;
+  left: 150px;
+  top: 230px;
+  font-family: "Gill Sans", sans-serif;
+  font-size: 18px;
+  color: rgb(32, 32, 32);
+  font-weight: bold;
+  
+}
+.buy{
+  position: fixed;
+  left: 200px;
+  top: 270px;
+    background-color: #549ae6;
+    border: none;
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 30px;
+    font-weight: bold;
+
+  }
